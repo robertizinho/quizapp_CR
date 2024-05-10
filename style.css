@@ -10,6 +10,7 @@
   --purple: #a729f5;
   --white: #fff;
   --primary-text-color : #313e51;
+  --secondary-text-color : #626c7f;
   --bg-mobile: url(.assests/images/pattern-background-mobile-light.svg);  
 }
 body {
@@ -56,10 +57,29 @@ main {
 
 }
 
+.boas-vindas {
+  margin-bottom: 40px;
+}
 
-main h1 {
+
+.boas-vindas h1 {
 font-size: 40px;
 font-weight: 300;
 color: var(--primary-text-color);
+margin-bottom: 16px;
+}
+
+
+
+.boas-vindas h1 strong {
+   font-weight: 500;
+
+}
+
+.boas-vindas p {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 150%;
+  font-style: italic;
 }
 
